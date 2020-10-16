@@ -1,6 +1,7 @@
+import 'package:EduBox/screen_success.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import './order_teacher.dart';
 import './main.dart';
 
 class NewOrderTeacher extends StatelessWidget {
@@ -262,7 +263,24 @@ class NewOrderTeacher extends StatelessWidget {
                         )),
                   ),
                   new InkWell(
-                    onTap: null,
+                    onTap: () {
+                      Firestore.instance.collection("finding_course").add({
+                        "subject":"Toán",
+                        "code":"3000",
+                        "class":"Lớp 1",
+                        "time":"08:00 - 10:00",
+                        "cost":"600,600đ",
+                        "status":"Chờ gia sư đăng ký",
+                        "position":"Tại nhà",
+                        "from_date":"10-10-2020",
+                        "to_date":"12-12-2020"
+                      });
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => ScreenSuccess()),
+                      );
+                    },
                     child: new Container(
                         margin: EdgeInsets.only(left: 10, right: 2),
                         padding: const EdgeInsets.only(
