@@ -29,6 +29,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.3"
+  clay_containers:
+    dependency: "direct main"
+    description:
+      name: clay_containers
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.2"
   clock:
     dependency: transitive
     description:
@@ -116,6 +123,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -142,6 +150,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.2"
+=======
+  intl:
+    dependency: "direct main"
+    description:
+      name: intl
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.16.1"
+>>>>>>> afafe33df396e197c56b8f28bfe4cd226349d877
   matcher:
     dependency: transitive
     description:
