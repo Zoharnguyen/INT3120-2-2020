@@ -3,13 +3,14 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import './main.dart';
+import 'Home/HomeInterface.dart';
 
 class NewOrderTeacher extends StatelessWidget {
 
   void backOrderTeacherScreen(BuildContext ctx) {
     Navigator.of(ctx).push(MaterialPageRoute(
       builder: (_) {
-        return MyHomePage();
+        return HomeInterface();
       },
     ),);
   }
