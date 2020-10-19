@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:EduBox/Authenticate/LoginScreen.dart';
+import 'package:EduBox/authenticate/LoginScreen.dart';
 import 'package:clay_containers/clay_containers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

@@ -1,10 +1,13 @@
 import 'dart:ui';
 
-import 'package:EduBox/NewPost/DatePicker.dart';
-import 'package:EduBox/NewPost/TimePicker.dart';
+import 'package:EduBox/post/DatePicker.dart';
+import 'package:EduBox/post/TimePicker.dart';
 
-import '../NewPost/DaysOfWeek.dart';
+import '../post/DaysOfWeek.dart';
 import '../package/widget.dart';
+import 'DropDownMenu.dart';
+import 'InputBox.dart';
+import 'LabelText.dart';
 
 enum classType { findTeacher, findStudent }
 

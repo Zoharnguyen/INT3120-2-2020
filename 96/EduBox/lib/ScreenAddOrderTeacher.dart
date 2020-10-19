@@ -1,9 +1,9 @@
-import 'package:EduBox/screen_success.dart';
+import 'package:EduBox/ScreenSuccess.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import './main.dart';
-import 'Home/HomeInterface.dart';
+import './Main.dart';
+import 'home/HomeInterface.dart';
 
 class NewOrderTeacher extends StatelessWidget {
 
