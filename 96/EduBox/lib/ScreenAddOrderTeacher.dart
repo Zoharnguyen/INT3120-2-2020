@@ -2,7 +2,7 @@ import 'package:EduBox/ScreenSuccess.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import './Main.dart';
+
 import 'home/HomeInterface.dart';
 
 class NewOrderTeacher extends StatelessWidget {

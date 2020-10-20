@@ -3,8 +3,8 @@ import 'dart:ui';
 import 'package:EduBox/post/DatePicker.dart';
 import 'package:EduBox/post/TimePicker.dart';
 
-import '../post/DaysOfWeek.dart';
 import '../package/widget.dart';
+import '../post/DaysOfWeek.dart';
 import 'DropDownMenu.dart';
 import 'InputBox.dart';
 import 'LabelText.dart';

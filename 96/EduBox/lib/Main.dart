@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
+import 'ScreenAddOrderTeacher.dart';
 import 'package/widget.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       // home: HomeInterface(),
-      home: OrderTeacher(),
+      home: NewOrderTeacher(),
       //Empty(),
     );
   }
